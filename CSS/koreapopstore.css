@@ -37,53 +37,41 @@ button {
    width: 100%;
 }
 .main_pro_top {
-   height: 270px;
-   background-image: url('/image/09.png');
-   background-size: cover;
+   /* background-size: cover; */
    /* background-color: #01b039; */
 }
 .main_pro {
    text-align: center;
+   height: 270px;
 }
-.main_pro h2 {
-   font-size: 2.3em;
-   color: #fff !important;
-   z-index: 999;
-   /* font-weight: 100 !important; */
-}
-.main_pro .inqBtn {
-   display: inline-block;
-   margin-top: 20px;
-}
-.main_pro .inqBtn p {
-   padding: 10px;
-   display: inline-block;
-   border-radius: 50px;
-
-   background: #fff;
-   color: #01b039;
-   font-weight: 600;
+.main_pro a {
+   height: 100%;
+   display: block;
+   background-image: url('/image/23.png');
+   background-size: cover;
+   width: 100%;
 }
 
 /* 섹션 02 수출 국가 */
 .sec-02 {
    width: 100%;
-   padding: 2.5rem 0;
+   height: 172.5px;
+   padding: 1.5rem 0 1rem;
    margin-bottom: 65px;
-   /* background-color: #f8f8f8; */
-   background-color: #01b039;
    text-align: center;
+   background-color: #fdfdfd;
+   /* box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2) inset; */
 }
 .sec-02 .container {
    width: 100%;
-   padding: 20px 0;
+   padding: 25px 0 20px;
    margin: 0 auto;
 }
 .sec-02-copy {
-   margin-bottom: 30px;
-   font-size: 1.2em;
-   font-weight: 600;
-   color: #fff;
+   margin-bottom: 10px;
+   font-size: 1.1em;
+   font-weight: 300;
+   color: #000;
 }
 .nationBox {
    width: 80%;
@@ -106,12 +94,12 @@ button {
    background: url('/image/prev.png') no-repeat 50% 50%;
    background-size: 20px;
    left: -80px;
-   padding: 15px 20px;
+   padding: 10px 20px;
 }
 .sec-02 .nationBox .slick-arrow.slick-next {
    /* background: url('/images/main/next.png') no-repeat 50% 50%; */
    background: url('/image/next.png') no-repeat 50% 50%;
    background-size: 20px;
    right: -80px;
-   padding: 15px 20px;
+   padding: 10px 20px;
 }
