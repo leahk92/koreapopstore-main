@@ -47,7 +47,7 @@
             nextArrow:
                '<button type="button" data-role="none" class="slick-next" aria-label="Next" tabindex="0" role="button">Next</button>',
             autoplay: false,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 200,
             centerMode: false,
             cssEase: 'ease',
             customPaging: function (slider, i) {

@@ -2,7 +2,7 @@
 * {
    margin: 0;
    padding: 0;
-   font-family: 'Inter', serif;
+   font-family: 'GmarketSans', sans-serif;
 }
 *,
 *::before,
@@ -31,26 +31,59 @@ button {
 /* kpop사이트 기존 */
 #contents {
    width: 1014px;
+   margin: 0 auto;
+}
+.visual {
+   width: 100%;
+}
+.main_pro_top {
+   height: 270px;
+   background-image: url('/image/09.png');
+   background-size: cover;
+   /* background-color: #01b039; */
+}
+.main_pro {
+   text-align: center;
+}
+.main_pro h2 {
+   font-size: 2.3em;
+   color: #fff !important;
+   z-index: 999;
+   /* font-weight: 100 !important; */
+}
+.main_pro .inqBtn {
+   display: inline-block;
+   margin-top: 20px;
+}
+.main_pro .inqBtn p {
+   padding: 10px;
+   display: inline-block;
+   border-radius: 50px;
+
+   background: #fff;
+   color: #01b039;
+   font-weight: 600;
 }
 
 /* 섹션 02 수출 국가 */
 .sec-02 {
    width: 100%;
-   padding: 6.5rem 0 3.5rem;
+   padding: 2.5rem 0;
    margin-bottom: 65px;
-   background-color: #f8f8f8;
+   /* background-color: #f8f8f8; */
+   background-color: #01b039;
    text-align: center;
 }
 .sec-02 .container {
    width: 100%;
-
-   padding: 50px 0;
+   padding: 20px 0;
    margin: 0 auto;
 }
 .sec-02-copy {
    margin-bottom: 30px;
-   font-size: 2em;
-   font-weight: 700;
+   font-size: 1.2em;
+   font-weight: 600;
+   color: #fff;
 }
 .nationBox {
    width: 80%;
@@ -58,7 +91,7 @@ button {
    text-align: center;
 }
 .nationList {
-   margin: 0 1.5em;
+   margin: 0 1.7em;
 }
 
 /* 화살표 */
@@ -71,14 +104,14 @@ button {
 }
 .sec-02 .nationBox .slick-arrow.slick-prev {
    background: url('/image/prev.png') no-repeat 50% 50%;
-   background-size: 29px;
+   background-size: 20px;
    left: -80px;
    padding: 15px 20px;
 }
 .sec-02 .nationBox .slick-arrow.slick-next {
    /* background: url('/images/main/next.png') no-repeat 50% 50%; */
    background: url('/image/next.png') no-repeat 50% 50%;
-   background-size: 29px;
+   background-size: 20px;
    right: -80px;
    padding: 15px 20px;
 }
