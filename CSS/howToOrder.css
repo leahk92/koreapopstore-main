@@ -3,7 +3,7 @@
 * {
    margin: 0;
    padding: 0;
-   font-family: 'GmarketSans', sans-serif;
+   font-family: 'Montserrat', serif;
 }
 *,
 *::before,
@@ -35,72 +35,81 @@ button {
    width: 1014px;
    margin: 0 auto;
    /* border: 1px solid #111; */
-   padding: 30px 0;
+   padding: 170px 0 30px 0;
 }
 #wrap-order > div {
    width: 100%;
 }
 /* 1구역 */
 #wrap-order .ttl {
-   font-size: 35px;
-   font-weight: 400;
-   color: #232e41;
-   margin-bottom: 25px;
-   text-align: center;
+   font-size: 32px;
+   font-weight: 300;
+   margin-bottom: 20px;
 }
 .a01-1-regi {
+   font-weight: 400;
+   /* background-color: #f7f7f7; */
+   background-color: #52c94e;
    text-align: center;
+   padding: 20px 0;
+   color: #fff;
+}
+.a01-1-regi .ttl01 {
+   font-size: 40px;
+   font-weight: 900;
+}
+.a01-1-regi > div {
+   display: inline-block;
+   width: 580px;
+   font-weight: 600;
+   text-align: center;
+   padding: 10px 0;
+   margin-bottom: 15px;
 }
 .a01-1-regi .signUp {
-   font-weight: 600;
-   color: #222;
-   display: inline-block;
-   background-color: rgba(211, 255, 125, 0.2);
-   /* box-shadow: 0px 0px 20px -7px rgba(0, 0, 0, 0.5); */
-   padding: 25px 150px;
-   margin-bottom: 25px;
+   font-size: 20px;
 }
 .a01-1-regi .regiBtn {
-   font-size: 15px;
-   font-weight: 400;
-   color: #fff;
+   font-size: 16px;
    display: inline-block;
-   padding: 10px 50px;
-   border-radius: 10px;
-   background-color: #1c42d1;
-   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
-
+   padding: 14px 35px;
+   border-radius: 25px;
+   /* border: 3px solid #232e41; */
+   background-color: #d3ff7d;
+   color: #222;
+   font-weight: 700;
+   box-shadow: 1px 2px 11px 2px rgba(0, 0, 0, 0.25);
    margin-top: 15px;
 }
-.a01-1-regi span {
-   /* color: #eb3656; */
-   color: #f02004;
-   font-weight: 600;
+.a01-1-regi .regiBtn i {
+   margin-left: 13px;
+}
+.a01-1-regi .addtoknow {
+   color: #222;
+}
+.a01-1-regi .addtoknow i {
+   margin-right: 3px;
+}
+.a01-1-regi .addtoknow span {
+   font-weight: 700;
 }
 .a01-2-info {
    margin-top: 70px;
+}
+.info-lists {
+   padding-left: 10px;
    line-height: 2;
-}
-.a01-2-info > p:first-child {
-   font-size: 20px;
-   font-weight: 600;
-   color: #222;
-   background-color: #d3ff7d;
-   padding: 5px 0 5px 20px;
-}
-.a01-2-info p {
-   padding-left: 30px;
 }
 .a01-2-info i {
    margin-right: 8px;
 }
-.a01-2-info > div {
+.a01-2-info .secondary {
    line-height: 1.5;
 }
-.a01-2-info > div > p {
-   padding-left: 55px;
+.a01-2-info .secondary > p {
+   padding-left: 25px;
 }
-.a01-2-info > div i {
+.a01-2-info .secondary i {
    font-size: 8.5px;
    margin-right: 5px;
 }
@@ -109,13 +118,18 @@ button {
    margin: 100px 0;
 }
 .area-02 .typeName {
-   width: 997px;
-   margin: 0 auto;
-   color: #111;
-   font-weight: 600;
-   text-align: center;
-   padding: 17px 0;
-   /* background-color: rgba(211, 255, 125, 0.2); */
+   color: #232e41;
+   font-weight: 800;
+   font-size: 25px;
+   text-align: left;
+   padding-left: 8px;
+   margin-bottom: 15px;
+}
+.area-02 .typeName span {
+   color: #718dc3;
+}
+.area-02 .type01 {
+   margin-bottom: 70px;
 }
 .area-02 .flex-container {
    display: flex;
@@ -126,27 +140,45 @@ button {
    gap: 3px;
    margin: 0 auto;
 }
-.area-02 .item {
-   flex: 0 0 calc(25% - 10px); /* 가로폭: 50% - gap 고려 */
-   /* height: 100px; */
-   /* background-color: #d3ff7d; */
-
+.area-02 .type .item {
+   margin: 0 auto;
    display: flex;
-   justify-content: left;
-   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
 }
-.area-02 .item span {
-   font-weight: 600;
-   margin-right: 10px;
+.area-02 .type img {
+   display: block;
+   margin: 0 auto;
 }
-.area-02 .item img {
-   width: 243.5px;
+.area-02 .type01 .item {
+   flex: 0 0 calc(25% - 10px); /* 가로폭: 50% - gap 고려 */
+}
+.area-02 .type02 .item {
+   flex: 0 0 calc(33% - 10px); /* 가로폭: 50% - gap 고려 */
 }
 .area-02 .step {
-   background-color: rgba(211, 255, 125, 0.2);
-
+   color: #222;
+   font-size: 16.5px;
+   font-weight: 700;
+   line-height: 1.5;
+   /* background-color: rgba(211, 255, 125, 0.2); */
+   background-color: #718dc3;
+   /* background-color: #f7f7f7; */
    padding: 10px 0 10px 15px;
    /* font-weight: 400; */
+}
+.area-02 .item span {
+   font-size: 15px;
+   font-weight: 400;
+   margin-right: 10px;
+   color: #fff;
+}
+.area-02 .type01 img {
+   width: 220px;
+}
+.area-02 .type02 img {
+   width: 240px;
 }
 
 /* 3구역 */
@@ -158,10 +190,18 @@ button {
    justify-content: flex-start;
    align-items: center;
    height: 100px;
+   margin-bottom: 10px;
 }
 .area-03 .list .number {
+   width: 50px;
+   font-size: 30px;
    color: #52c94e;
    font-weight: 700;
+}
+.area-03 .list .icon {
+   width: 100px;
+   height: 100px;
+   /* background-color: #718dc3; */
 }
 .area-03 .list .text {
    font-weight: 700;
