@@ -1,0 +1,18 @@
+<!--main banner-->
+  <div class="main_pro_top">
+  <div class="main_pro">
+    <h2>The Largest K-pop Online Store</h2></div>
+    <!--br 한 개 삭제-->
+    <p style="text-align: center;">
+        <strong style="display: inline-block;font-size:17px; margin:0 0 10px;padding: 3px 15px;color:#52c94e;background-color: #000000;">Business Inquiry</strong><br>
+        <span style="color: #fff; font-weight:800;font-size:17px;line-height: 1.4;">Whatsapp : 821049114216<br>Kakaotalk ID : wholekorea</span><br>
+        <strong><a style="border: 2px solid #52c94e;box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.75);background: #fff;color: #000;font-family:'Fugaz One',serif;font-weight: 300;font-size: 16px;padding: 7px 20px;border-radius:15px;margin: 20px 0 18px;display: inline-block;" href="https://koreapopstore.com/board/notice/1/">
+            GET EXTRA DISCOUNT 10~20%<i style="margin-left:7px;" class="fa-solid fa-angle-right"></i></a></strong>
+    </p>
+
+    <ol>
+      <!--<li>1. Register (Sign Up)</li>-->
+          </ol>
+  </div>
+</div>
+<!--main banner end-->  
